@@ -1,0 +1,278 @@
+html,body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color: #000000;
+    font-family: Oleo Script;
+
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color:  #0F298B;
+	transition: .4s;
+}
+
+.btn{
+	background-color: #0F298B;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+
+}
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color:  #FAFAFA;
+}
+.about img{
+	height: auto;
+	width: 500px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 100%;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h1 {
+    color:  #0F298B;
+	letter-spacing: 1px;
+	line-height: 42px;
+	font-size: 42px;
+}
+.about-text p{
+	color:  #000;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+button{
+	background-color: #0F298B;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid  #2549D3;
+	cursor: pointer;
+}
+
+/* searchbox */
+
+.box-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box-wrapper > div {
+    margin: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1 0 21%;
+    line-height: 1.4em;
+    height: 100px;
+  }
+  
+  .search-box {
+    box-shadow: 5px 5px 5px -5px rgb(104, 104, 104);
+  }
+
+select {
+    color:#0F298B;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    padding: 20px;
+}
+
+.search-box button{
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+.product{
+	background: #FAFAFA;
+	width: 100%;
+	
+}
+.title h1{
+	color: #2549D3;
+	font-size: 36px;
+	width: 1130px;
+	margin: 30px auto;
+
+}
+.title h2{
+	color: #2549D3;
+	font-size: 36px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.title p{
+	color: #000;
+	font-size: 24px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card,.card-inner,.feature-card,.feature-card-inner{
+	height: 350px;
+	width: 300px;
+	padding: 20px 35px;
+	background: #fff;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+h5{
+	color: #000;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.product-text p{
+	color: #000;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .card-inner .button{
+	background-color:#FAFAFA;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card-inner, .feature-card-inner{
+    box-shadow: 5px 5px 5px -5px rgb(104, 104, 104);
+}
+
+.card img, .card-inner img{
+    width: 80px;
+    height:auto;
+}
+
+.feature-card img, .feature-card-inner img{
+    width: 350px;
+    height:auto;
+}
+.button{
+   
+    float: right;
+}
+
+
+  
+#footer {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    background:#2549D3 ;
+    color:#dbdbdb;
+    margin-top: 10px;
+  }
+  
+  #footer .logo img {
+    width: 50px;
+    float: left;
+  }
+  
+  #footer ul li a{color:#fff;}
+  .foot-col-1 {
+    width: 30%;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .foot-col-2 {
+    width: 18%;
+    display: inline-block;
+  }
+  
+  .foot-col-3 {
+    width: 18%;
+    display: inline-block;
+  }
+  
+  .foot-col-4 {
+    width: 30%;
+    display: inline-block;
+  }
+  
+  @media (max-width:1085px) {
+    .foot-col-1, .foot-col-4 {
+      display: block;
+      width: 90%;
+      margin: 0 auto;
+    }
+    .foot-col-2,
+    .foot-col-3 {
+  width:49%;
+    }
+  }
+  
+  @media (max-width:800px) {
+    .lh-footer, .mid-footer, .rh-footer {
+      display: block;
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+   }
+ul li a{
+    text-decoration: none;
+}
